@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CSharp
 {
@@ -7,26 +8,33 @@ namespace CSharp
         static void Main(string[] args)
         {
 
-            var fullName = "  Mosh Hamedani  ";
-            Console.WriteLine("trim:'{0}'", fullName.Trim());
-            Console.WriteLine("ToUpper:'{0}'", fullName.Trim().ToUpper());
-            var index = fullName.IndexOf(' ');
-            var firstName = fullName.Substring(0, index);
-            var lastName = fullName.Substring(index, 1);
-            Console.WriteLine(firstName);
-            Console.WriteLine(lastName);
-
-            var names = fullName.Split(' ');
-            Console.WriteLine(names[0]);
-            Console.WriteLine(names[1]);
-            Console.WriteLine(fullName.Replace("mosh", "mo"));
-            if (String.IsNullOrWhiteSpace(" "))
-                Console.WriteLine("invalid");
-            var str = "25";
-            Convert.ToInt32(str);
-            Console.WriteLine(str);
-            float price = 12.12f;
-            Console.WriteLine(price.ToString("C"));
+            var sentence = "this is going to realy realy realy long text.";
+            var summary = SummerizeText(sentence);
+            Console.WriteLine(summary,25);
         }
+
+        static string SummerizeText(string text, int maxlength = 20)
+        {
+            
+            if (text.Length < maxlength)
+                return text;
+       
+            var words = text.Split(' ');
+            var totalCharacters = 0;
+            var summaryWords = new List<string>();
+            foreach (var word in words)
+            {
+                summaryWords.Add(word);
+                totalCharacters += word.Length + 1;
+                if (totalCharacters > maxlength)
+                    break;
+
+            }
+
+            return String.Join(" ", summaryWords) + "...";
+            
+           
+        }
+
     }
 }
