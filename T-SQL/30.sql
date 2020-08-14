@@ -1,3 +1,3 @@
-select guestId,FirstName,LastName
+select guestId,FirstName,LastName,State
 from guests 
-order by  FirstName,LastName,GuestId desc
+delete from guests where GuestId=5000
