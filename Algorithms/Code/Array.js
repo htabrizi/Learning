@@ -9,4 +9,5 @@ public class Array{
             for (int i=0; i<this.items.lenght; i++)
     console.log(items[i]);
 }
+numbers.insert(40);
 } 
