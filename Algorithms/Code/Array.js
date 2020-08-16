@@ -10,4 +10,6 @@ public class Array{
     console.log(items[i]);
 }
 numbers.insert(40);
+
+//O(n)
 } 
