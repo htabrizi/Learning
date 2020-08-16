@@ -5,9 +5,8 @@ public class Array{
         items=new int [lenght];
     }
 
-public void print(){
-    for (int i=0; i<this.items.lenght; i++)
+    public void print(){
+            for (int i=0; i<this.items.lenght; i++)
     console.log(items[i]);
 }
-
 } 
