@@ -1,5 +1,9 @@
+select * from guests
 select * from RoomReservations
-update RoomReservations 
-set CheckInDate = '2018-7-21' ,
-CheckOutDate='2019-07-03'
-where ReservationID=1
+select * from Rooms
+select Guests.FirstName,
+Guests.LastName,
+RoomReservations.CheckInDate,
+Rooms.rate
+From Guests inner join RoomReservations on Guests.GuestId=RoomReservations.GuestID
+inner join Rooms on RoomReservations.RoomNumber=Rooms.RoomNumber
