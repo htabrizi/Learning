@@ -12,4 +12,8 @@ public class Array{
 numbers.insert(40);
 
 //O(n)
+ArrayList<integer> list =new this.ArrayList<>();
+list.add(10);
+list.add(10);
+list.add(10);
 } 
