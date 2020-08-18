@@ -73,6 +73,7 @@ function third() {
 
 console.log(typeof John);
 console.log(typeof John);
+if
 
  
 /////////////////////////////////////
