@@ -75,7 +75,7 @@ console.log(typeof John);
 console.log(typeof John);
 if
 orientation
- 
+switch - if with ? :
 /////////////////////////////////////
 // Lecture: The this keyword
 
