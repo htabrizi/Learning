@@ -74,7 +74,7 @@ function third() {
 console.log(typeof John);
 console.log(typeof John);
 if
-
+orientation
  
 /////////////////////////////////////
 // Lecture: The this keyword
