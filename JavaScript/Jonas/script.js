@@ -72,6 +72,8 @@ function third() {
 */
 
 console.log(typeof John);
+console.log(typeof John);
+
  
 /////////////////////////////////////
 // Lecture: The this keyword
