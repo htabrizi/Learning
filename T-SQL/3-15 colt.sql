@@ -6,3 +6,4 @@ age int
 );
 show columns from cats;
 desc cats;
+drop table cats;
