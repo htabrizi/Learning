@@ -7,3 +7,5 @@ age int
 show columns from cats;
 desc cats;
 drop table cats;
+create table pastries(name varchar(50),quantity int);
+drop table pastries;
