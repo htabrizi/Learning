@@ -69,6 +69,7 @@ function third() {
     //console.log(c);
     console.log(a+d);
 }
+function
 */
 
 console.log(typeof John);
