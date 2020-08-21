@@ -13,4 +13,4 @@ values ('tina', 'belcher',13);
 select * from people;
 insert into people(lastName,firstName,age)
 values('ahmadi','ahmad',11);
-EXEC  people;
+desc cat_app;
