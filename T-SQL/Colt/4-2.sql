@@ -7,3 +7,6 @@ values ('charlie',10)
 ,('sadie',3)
 ,('lazy',5);
 select * from cats;
+create table people (firstName varchar(20) ,lastName varchar (20) , age int);
+insert into people (firstName,lastName,age)
+values ('tina', 'belcher',13);
