@@ -1,4 +1,11 @@
-<p>From App Component</p>
-<app-users>
-  
-</app-users>
+<h1 [hidden]="username===''">Welcome {{name}}</h1>
+<h1 [hidden]="username !==''">Pleae enter your username</h1>
+<hr>
+<label>Username</label>
+<input type="text" (input)="onUsernameInputChanged($event)">
+<br>
+<lable>Enter Password:</lable>
+<input type="text" (input)="onPasswordInputChanged($event)">
+<br>
+<label> Retype Password:</label>
+<input type="text" (input)="">
