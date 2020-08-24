@@ -116,3 +116,5 @@ mike.calculateAge = john.calculateAge;
 mike.calculateAge();
 */
 john.unshift('1');
+john.shift('1');
+john.log(john.indexOf(1990));
