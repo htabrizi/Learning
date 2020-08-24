@@ -117,3 +117,9 @@ mike.calculateAge();
 */
 console.log(john['lastname']); 
 console.log(jane);
+birthYear=1990;
+calcAge:function (birthYear){
+    return 2018-birthYear;
+}
+
+}
