@@ -115,3 +115,5 @@ var mike = {
 mike.calculateAge = john.calculateAge;
 mike.calculateAge();
 */
+console.log(john['lastname']); 
+console.log(jane);
