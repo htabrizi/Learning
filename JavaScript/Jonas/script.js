@@ -115,3 +115,4 @@ var mike = {
 mike.calculateAge = john.calculateAge;
 mike.calculateAge();
 */
+john.unshift('1');
