@@ -122,4 +122,3 @@ calcAge:function (birthYear){
     return 2018-birthYear;
 }
 
-}
