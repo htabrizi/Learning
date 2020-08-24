@@ -1,11 +1,4 @@
-create database cat_app;
-use cat_app;
-create table cats(
-name varchar(100),
-age int
-);
-show columns from cats;
-desc cats;
-drop table cats;
-create table pastries(name varchar(50),quantity int);
-drop table pastries;
+create table ucat (catId int ,
+name varchar(100),age int,
+primary key (catId));
+insert into ucat (catId,name,age)values(1,"fred",23);
