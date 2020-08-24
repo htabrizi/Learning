@@ -69,13 +69,14 @@ function third() {
     //console.log(c);
     console.log(a+d);
 }
+function
 */
+
 
 console.log(typeof John);
 console.log(typeof John);
-if
-orientation
-switch - if with ? :
+ 
+
 /////////////////////////////////////
 // Lecture: The this keyword
 
@@ -114,3 +115,14 @@ var mike = {
 mike.calculateAge = john.calculateAge;
 mike.calculateAge();
 */
+console.log(john['lastname']); 
+console.log(jane);
+birthYear=1990;
+calcAge:function (birthYear){
+    return 2018-birthYear;
+}
+
+  
+chal1
+chal2
+chal3
