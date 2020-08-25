@@ -28,3 +28,4 @@ select cat_id,age from cats where cat_id=age
 
 select 1 AS 'Type','Iman' AS 'Name';
 select name , GroupName,1 from HumanResources.Department
+1
