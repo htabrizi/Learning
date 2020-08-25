@@ -24,3 +24,7 @@ select name,age from cats
 select * from cats where name='egg';
 
 select cat_id,age from cats where cat_id=age
+
+
+select 1 AS 'Type','Iman' AS 'Name';
+select name , GroupName,1 from HumanResources.Department
