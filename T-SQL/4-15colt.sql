@@ -21,3 +21,4 @@ PRIMARY KEY CLUSTERED
 GO
 
 select name,age from cats
+select * from cats where name='egg';
