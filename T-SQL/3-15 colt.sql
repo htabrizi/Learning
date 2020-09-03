@@ -2,18 +2,25 @@ DROP TABLE cats;
 create database cats;
 CREATE TABLE cats 
   ( 
-     cat_id INT NOT NULL AUTO_INCREMENT, 
+     cat_id INT, 
      name   VARCHAR(100), 
      breed  VARCHAR(100), 
      age    INT, 
      PRIMARY KEY (cat_id) 
   ); 
 
-  INSERT INTO cats(name, breed, age) 
-VALUES ('Ringo', 'Tabby', 4),
-       ('Cindy', 'Maine Coon', 10),
-       ('Dumbledore', 'Maine Coon', 11),
-       ('Egg', 'Persian', 4),
-       ('Misty', 'Tabby', 13),
-       ('George Michael', 'Ragdoll', 9),
-       ('Jackson', 'Sphynx', 7);
+  INSERT INTO cats(cat_id, name, breed, age) 
+VALUES (1,'Ringo', 'Tabby', 4),
+       (2,'Cindy', 'Maine Coon', 10),
+       (3,'Dumbledore', 'Maine Coon', 11),
+       (4,'Egg', 'Persian', 4),
+       (5,'Misty', 'Tabby', 13),
+       (6,'George Michael', 'Ragdoll', 9),
+       (7,'Jackson', 'Sphynx', 7);
+
+select * from cats;
+
+
+update cats set breed ='shorthair' where breed='tabby';
+update cats set age ='14' where name='misty';
+select * from cats where name='misty'
