@@ -30,3 +30,6 @@ update cats set age ='14' where name='misty';
 
 select * from cats where name='misty'
 select * from cats
+
+delete from cats where name='egg'
+select *from cats;
