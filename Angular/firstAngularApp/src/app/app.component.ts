@@ -6,7 +6,7 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit{
-isCorrect:boolean=true;
+isCorrect:boolean=false;
 
 isModified:boolean=false;
 isCancelled:boolean=true;
