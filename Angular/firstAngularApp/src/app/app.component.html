@@ -1,7 +1,10 @@
 <p *ngIf="isCorrect; else elsecond"> ngif true</p>
 <ng-template #elsecond>else condition</ng-template>
 
-
+<br>
+<br>
+<button (click)= "addNewUser()"> Add new User </button>
+<p *ngFor="let user of usersObj;let i=index">{{user.id + ':' +user.name}} </p>
 
 
 
