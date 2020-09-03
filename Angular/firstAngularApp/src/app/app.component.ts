@@ -87,8 +87,12 @@ classes={};
       {
         id:7,
         name:'foad'
-      },
+      }
     ];
   }
+  public trackByFunc (index:number,el:any){
+    return el.id;
+  }
+
 }
 
