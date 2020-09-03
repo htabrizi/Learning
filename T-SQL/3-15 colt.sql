@@ -36,4 +36,6 @@ select *from cats;
 
 
 delete from cats where age='4';
-delete from cats age=cat_id;
+delete from cats where age=cat_id;
+select * from cats where age=cat_id;
+delete from cats;
