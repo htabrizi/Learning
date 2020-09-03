@@ -19,8 +19,9 @@ VALUES (1,'Ringo', 'Tabby', 4),
        (7,'Jackson', 'Sphynx', 7);
 
 select * from cats;
-
-
+update cats set age='12' where breed='Maine Coon'
+update cats set name='Jack' where name = 'Jackson';
+update cats set name ='Britis Sorthair' where name= 'ringo'
 update cats set breed ='shorthair' where breed='tabby';
 update cats set age ='14' where name='misty';
 select * from cats where name='misty'
