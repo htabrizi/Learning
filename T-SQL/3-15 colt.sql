@@ -33,3 +33,7 @@ select * from cats
 
 delete from cats where name='egg'
 select *from cats;
+
+
+delete from cats where age='4';
+delete from cats age=cat_id;
