@@ -1,1 +1,12 @@
-<button class="btn btn-primary"> Add user</button>
+<p *ngIf="isCorrect; else elsecond"> ngif true</p>
+<ng-template #elsecond>else condition</ng-template>
+
+<br>
+<br>
+<button (click)= "addNewUser()"> Add new User </button>
+<p *ngFor="let user of usersObj;let i=index; trackBy:trackByFunc">{{user.id + ':' +user.name}} </p>
+
+
+<!--<ng-template [ngIf]="!isCorrect">-->
+<!--  <p>ngIf true </p>-->
+<!-- </ng-template>-->
