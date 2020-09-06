@@ -22,9 +22,10 @@ function showSuccess(input) {
 
 
 // Check email is valid
-function checkEmail(input) {
+function isValidEmail(input) {
 const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
+return re.test(String(email).toLowerCase());
+}
 
 
 //Event listener 
@@ -39,12 +40,16 @@ if (username.value===''){
 
   if (email.value===''){
     showError(email, 'Email is required');
-  }else{
+   } 
+   else if (!isValidEmail(email.value)){
+    showError(email, 'Email is notValid');   }
+  else{
       showSuccess(email);
     }
+
     if (password.value===''){
-      showError(password, 'Password is required');
-    }else{
+      showError(password, 'Password is required');}
+     else{
         showSuccess(password);
       }
       if (password2.value===''){
