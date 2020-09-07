@@ -17,6 +17,16 @@ count.innerText=selectedSeatsCount;
 total.innerText=selectedSeatsCount*ticketPrice;
 }
 
+//movie select event
+movieSelect.addEventListener('change',e=>{
+  ticketPrice= +e.target.value;
+updateSelectedCount();
+
+})
+
+
+//select click event
+
 container.addEventListener('click',e=>{
 if(e.target.classList.contains('seat')&&
 !e.target.classList.contains('occupied')
