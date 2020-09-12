@@ -38,7 +38,7 @@ function populateUI() {
         seat.classList.add('selected');
       }
     });
-  }
+  } 
 
   const selectedMovieIndex = localStorage.getItem('selectedMovieIndex');
 
