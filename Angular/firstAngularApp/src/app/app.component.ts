@@ -24,5 +24,13 @@ users: user [] = [
     address:'789main'
   }
 ];
-  onAddUser()
+  public onAddUser( email:string,password:string,address:string,e:Event){
+    e.preventDefault()
+    let u : user={
+      email:email,
+      password:password,
+      address:address
+    };
+    this.users.push(u)
+  }
 }
