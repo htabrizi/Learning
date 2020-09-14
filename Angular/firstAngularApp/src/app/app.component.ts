@@ -1,106 +1,28 @@
 import {Component, OnInit} from '@angular/core';
+import {user} from './app-interface';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit{
-isCorrect:boolean=false;
-
-isModified:boolean=false;
-isCancelled:boolean=true;
-
-users:string[]=['foad','hamid','milad','jafar'];
-usersObj :any =[
-
+export class AppComponent  {
+users: user [] = [
   {
-    id:1,
-    name:'foad'
+    email: 'a@a.com',
+    password:'123',
+    address:'123main'
   },
   {
-    id:2,
-    name:'foad'
+    email: 'b@b.com',
+    password:'456',
+    address:'456main'
   },
   {
-    id:3,
-    name:'foad'
-  },
-  {
-    id:4,
-    name:'foad'
-  },
-  {
-    id:5,
-    name:'foad'
-  },
-  {
-    id:6,
-    name:'foad'
-  },
+    email: 'c@c.com',
+    password:'789',
+    address:'789main'
+  }
 ];
-
-styles ={};
-classes={};
-
-
-
-
-  ngOnInit(): void {
-  this.styles={
-    'font-size':this.isCorrect ? '1rem':'8rem',
-    'color':'red'
-      };
-
-      this.classes={
-    'big-font-size':this.isModified,
-        'cancelled-color':this.isCancelled
-      }
-  }
-  public  addNewUser(){
-    this.usersObj = [
-
-      {
-        id:1,
-        name:'foad'
-      },
-      {
-        id:2,
-        name:'foad'
-      },
-      {
-        id:3,
-        name:'foad'
-      },
-      {
-        id:4,
-        name:'foad'
-      },
-      {
-        id:5,
-        name:'foad5'
-      },
-      {
-        id:6,
-        name:'foad'
-      },
-      {
-        id:7,
-        name:'foad'
-      },
-      {
-        id:8,
-        name:'foad'
-      },
-      {
-        id:9,
-        name:'foad'
-      }
-    ];
-  }
-  public trackByFunc (index:number,el:any){
-    return el.id;
-  }
-
+  onAddUser()
 }
-
