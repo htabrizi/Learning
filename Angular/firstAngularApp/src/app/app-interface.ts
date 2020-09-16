@@ -3,3 +3,4 @@ export interface user {
   password:string;
   address:string;
 }
+
