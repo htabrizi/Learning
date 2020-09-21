@@ -13,14 +13,16 @@ export class UsertableComponent implements OnInit {
 
   ngOnInit(): void {
     let foundItem;
-    console.log(foundItem);
+
     let domItems = {
     questUpdateBtn: document.getElementById('question-update-btn'),
     newQuestionText: <HTMLInputElement>document.getElementById('new-question-text')
-  } 
+  }
   let  updateQuestion=function(){
+      let newOptions;
+      newOptions=[];
     foundItem.questionText=domItems.newQuestionText.value;
-    console.log(foundItem);
+  foundItem.correctAnswer='';
   }
     domItems.questUpdateBtn.onclick= updateQuestion.prototype;
   }
