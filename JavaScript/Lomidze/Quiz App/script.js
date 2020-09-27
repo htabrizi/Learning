@@ -37,6 +37,7 @@ var quizController = (function() {
     // 13
     return {
         // 80
+        
         getQuestionLocalStorage: questionLocalStorage,
         // 14
         addQuestionOnLocalStorage: function(newQuestText, opts) {
