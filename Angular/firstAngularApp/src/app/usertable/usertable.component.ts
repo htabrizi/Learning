@@ -12,8 +12,8 @@ export class UsertableComponent implements OnInit {
   constructor() { }
   onUpdate(user){
   let index=this.users.indexOf(user);
-  this.users.
-  }
+  this.users= new  user
+   }
   ngOnInit(): void {
 
   }
