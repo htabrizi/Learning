@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {user} from './app-interface';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +6,7 @@ import {user} from './app-interface';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent  {
-users:user[]=[];
-  public userAdded(users:user[]){
-this.users=users;
+log(x){
+  console.log(x);}
 }
-}
+
