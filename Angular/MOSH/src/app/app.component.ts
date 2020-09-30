@@ -10,5 +10,6 @@ log(x){
   console.log(x);}
 
 submit(f){
-  }
+  console.log(f);
+ }
 }
