@@ -6,7 +6,13 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent  {
-log(x){
+  contactMethods=[
+    {id:1, name:'Email'},
+    {id:2, name:'phone'}
+  ];
+
+
+  log(x){
   console.log(x);}
 
 submit(f){
