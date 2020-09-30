@@ -8,11 +8,12 @@ import {user} from '../app-interface';
 })
 
 export class UsertableComponent implements OnInit {
-@Input() users:user[]=[]
+
+  @Input() users:user[]=[]
+
   constructor() { }
   onUpdate(user){
-  let index=this.users.indexOf(user);
-  this.users= new  user
+    event.confirm.resolve();
    }
   ngOnInit(): void {
 
