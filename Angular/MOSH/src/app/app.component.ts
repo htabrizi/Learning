@@ -8,5 +8,8 @@ import {Component, OnInit} from '@angular/core';
 export class AppComponent  {
 log(x){
   console.log(x);}
-}
 
+submit(f){
+  console.log(f);
+ }
+}
