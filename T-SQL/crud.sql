@@ -54,3 +54,16 @@ SELECT * FROM shirts WHERE color='white'
 update shirts set color='offwhite',shirt_size='xs' where color='white'
 
 SELECT * FROM shirts;
+
+
+SELECT * FROM shirts WHERE last_worn=200;
+
+
+DELETE FROM shirts WHERE last_worn=200;
+
+ DELETE FROM shirts WHERE article='tank top';
+ DELETE FROM shirts;
+ SELECT * FROM shirts;
+ DROP TABLE shirts;
+ show tables;
+
