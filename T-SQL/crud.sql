@@ -35,3 +35,22 @@ select article , color from shirts
 select * from shirts where shirt_size='m';
 
 SELECT article, color, shirt_size, last_worn FROM shirts WHERE shirt_size='M';
+
+
+select * from shirts where article= 'polo shirt';
+
+
+
+update shirts set shirt_size='L' where article='polo shirt'
+
+
+SELECT * FROM shirts WHERE last_worn=15;
+
+update shirts set last_worn='0' where last_worn='15' 
+
+SELECT * FROM shirts WHERE color='white'
+
+
+update shirts set color='offwhite',shirt_size='xs' where color='white'
+
+SELECT * FROM shirts;
