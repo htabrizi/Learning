@@ -11,4 +11,20 @@ user:IUser={
   name:'foad',
   age:40
 }
+
+users:IUser[]=[{
+    name:'foad',
+    age:40
+  },
+{
+  name:'foad1',
+  age:40
+},
+{
+  name:'foad',
+    age:40
+},{
+  name:'foad',
+    age:40
+}];
 }
