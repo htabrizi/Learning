@@ -34,5 +34,4 @@ select article , color from shirts
 
 select * from shirts where shirt_size='m';
 
-
 SELECT article, color, shirt_size, last_worn FROM shirts WHERE shirt_size='M';
