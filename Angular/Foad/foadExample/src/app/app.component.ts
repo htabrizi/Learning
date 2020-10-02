@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {IUser} from './app-interface';
 
 @Component({
   selector: 'app-root',
@@ -6,16 +7,24 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent  {
-  contactMethods=[
-    {id:1, name:'Email'},
-    {id:2, name:'phone'}
-  ];
+user:IUser={
+  name:'foad',
+  age:40
+}
 
-
-  log(x){
-  console.log(x);}
-
-submit(f){
-  console.log(f);
- }
+users:IUser[]=[{
+    name:'foad',
+    age:40
+  },
+{
+  name:'foad1',
+  age:40
+},
+{
+  name:'foad',
+    age:40
+},{
+  name:'foad',
+    age:40
+}];
 }

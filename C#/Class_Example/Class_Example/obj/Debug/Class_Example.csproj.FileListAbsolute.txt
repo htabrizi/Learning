@@ -1,0 +1,7 @@
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\bin\Debug\Class_Example.exe.config
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\bin\Debug\Class_Example.exe
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\bin\Debug\Class_Example.pdb
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\obj\Debug\Class_Example.csprojAssemblyReference.cache
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\obj\Debug\Class_Example.csproj.CoreCompileInputs.cache
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\obj\Debug\Class_Example.exe
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\obj\Debug\Class_Example.pdb
