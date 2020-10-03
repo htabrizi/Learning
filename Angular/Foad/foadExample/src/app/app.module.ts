@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
 import { UserComponent } from './user/user.component';
+import { ColorfulDirective } from './colorful.directive';
+import { AppHighlightDirective } from './app-highlight.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
+    ColorfulDirective,
+    AppHighlightDirective,
 
 
 
