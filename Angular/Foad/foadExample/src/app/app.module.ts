@@ -6,6 +6,7 @@ import {FormsModule} from '@angular/forms';
 import { UserComponent } from './user/user.component';
 import { ColorfulDirective } from './colorful.directive';
 import { AppHighlightDirective } from './app-highlight.directive';
+import { CarouselDirective } from './carousel.directive';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { AppHighlightDirective } from './app-highlight.directive';
     UserComponent,
     ColorfulDirective,
     AppHighlightDirective,
+    CarouselDirective,
 
 
 
