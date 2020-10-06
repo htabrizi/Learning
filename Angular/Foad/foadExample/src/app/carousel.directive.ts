@@ -13,3 +13,6 @@ export class CarouselDirective {
 
   @Input() images:string[];
 }
+
+
+review 1
