@@ -45,6 +45,7 @@
     <Compile Include="Car.cs" />
     <Compile Include="customer.cs" />
     <Compile Include="MyClass.cs" />
+    <Compile Include="order.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

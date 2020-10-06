@@ -45,9 +45,16 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-            var customer=new customer();
+            var customer=new customer(1,"John");
+            
+            var order=new order();
+            customer.Orders.Add(order);
+
+
             Console.WriteLine(customer.Id);
             Console.WriteLine(customer.Name);
+
+
         }
     }
 }
