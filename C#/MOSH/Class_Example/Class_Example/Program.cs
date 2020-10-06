@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
  
 
 namespace Classes
@@ -9,7 +9,7 @@ namespace Classes
 
         public void Introduce(string to)
         {
-            Console.WriteLine( $"hi {0} I am {1}",to,Name);
+            Console.WriteLine( "hi {0} I am {1}",to,Name);
         }
     
 
@@ -31,6 +31,23 @@ namespace Classes
             var person = Person.Parse("John");
             person.Introduce("mosh");
             Console.ReadKey();
+        }
+    }
+}
+*/
+
+
+using System;
+
+namespace CSharp
+{
+    class program
+    {
+        static void Main(string[] args)
+        {
+            var customer=new customer();
+            Console.WriteLine(customer.Id);
+            Console.WriteLine(customer.Name);
         }
     }
 }
