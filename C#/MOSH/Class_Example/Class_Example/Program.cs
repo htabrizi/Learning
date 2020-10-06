@@ -38,6 +38,7 @@ namespace Classes
 
 
 using System;
+using System.Collections.Generic;
 
 namespace CSharp
 {
@@ -45,15 +46,15 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-            var customer=new customer(1,"John");
+            var customer=new customer( );
             
             var order=new order();
-            customer.Orders.Add(order);
+             customer.Orders.Add(order);
 
 
             Console.WriteLine(customer.Id);
             Console.WriteLine(customer.Name);
-
+            Console.ReadKey();
 
         }
     }

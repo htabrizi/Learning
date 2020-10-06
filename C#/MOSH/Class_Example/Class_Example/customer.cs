@@ -8,22 +8,23 @@ namespace CSharp
         public string Name;
         public List<order> Orders;
 
-        public customer(int id)
-        {
-            this.Id = id;
+        //public customer(int id)
+        //:this()
+        //{
+        //    this.Id = id;
 
-        }
+        //}
 
-        public customer(int id , string name)
-
-        {
-            this.Id = id;
-            this.Name = name;
-        }
+        //public customer(int id , string name)
+        //    :this(id)
+        //{
+            
+        //    this.Name = name;
+        //}
 
         public customer()
         {
-            //Orders= new List<order>();
+             Orders= new List<order>();
         }
     }
 
