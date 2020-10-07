@@ -1,0 +1,14 @@
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\bin\Debug\Class_Example.exe.config
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\bin\Debug\Class_Example.exe
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\bin\Debug\Class_Example.pdb
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\obj\Debug\Class_Example.csprojAssemblyReference.cache
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\obj\Debug\Class_Example.csproj.CoreCompileInputs.cache
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\obj\Debug\Class_Example.exe
+F:\C#\TopLearn.Com_Csharp_Part10\Class_Example\Class_Example\obj\Debug\Class_Example.pdb
+C:\Users\Hamid-Tabrizi\Documents\GitHub\Learning\C#\MOSH\Class_Example\Class_Example\obj\Debug\Class_Example.csprojAssemblyReference.cache
+C:\Users\Hamid-Tabrizi\Documents\GitHub\Learning\C#\MOSH\Class_Example\Class_Example\obj\Debug\Class_Example.csproj.CoreCompileInputs.cache
+C:\Users\Hamid-Tabrizi\Documents\GitHub\Learning\C#\MOSH\Class_Example\Class_Example\obj\Debug\Class_Example.exe
+C:\Users\Hamid-Tabrizi\Documents\GitHub\Learning\C#\MOSH\Class_Example\Class_Example\obj\Debug\Class_Example.pdb
+C:\Users\Hamid-Tabrizi\Documents\GitHub\Learning\C#\MOSH\Class_Example\Class_Example\bin\Debug\Class_Example.exe.config
+C:\Users\Hamid-Tabrizi\Documents\GitHub\Learning\C#\MOSH\Class_Example\Class_Example\bin\Debug\Class_Example.exe
+C:\Users\Hamid-Tabrizi\Documents\GitHub\Learning\C#\MOSH\Class_Example\Class_Example\bin\Debug\Class_Example.pdb

@@ -1,0 +1,22 @@
+import { Directive, Input, TemplateRef } from '@angular/core';
+
+import {ICarouselContext} from './interfaces/app-interface';
+@Directive({
+  selector: '[appCarousel]'
+})
+export class CarouselDirective {
+
+  context :ICarouselContext
+
+  constructor(private templateRef:TemplateRef) { }
+
+
+  @Input() images:string[];
+}
+
+
+review 1
+review2
+review3
+review4
+review5

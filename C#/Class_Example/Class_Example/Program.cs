@@ -28,8 +28,7 @@ namespace Class_Example
             Console.WriteLine(car1.CarName + " " + car1.CarSpeed + " " + car1.Carmodel);
             Console.WriteLine(car2.CarName + " " + car2.CarSpeed + " " + car2.Carmodel);
 
-
-
+            
             Person p1 = new Person("Iman","Madaeny","TopLear.Com");
             Person p2 = new Person("Ali", "Rezaei", "Barnamenevisan.org");
 

@@ -1,10 +1,2 @@
-<app-user [user]="user"></app-user>
-
-
-<select >
-  <ng-container *ngFor="let user of users">
-    <ng-container *ngIf="user.age>30">
-      <option [ngValue]="user">{{user.name}} ({{user.age}})</option>
-    </ng-container>
-  </ng-container>
-</select>
+<input type="text" appColorful style="width:50rem; border-width: .2rem;">
+<p [appAppHighlight]="color">Hello World</p>
