@@ -60,25 +60,41 @@ namespace Classes
 //        }
 //    }
 //}
+//using System;
 
-using System;
+//namespace Methods
+//{
 
-namespace Methods
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            var point=new Point(10,20);
+//            point.Move(null);
+//            Console.WriteLine("point is at ({0},{1})",point.X,point.Y);
+
+//            point.Move(100,200);
+//            Console.WriteLine("point is at ({0},{1})", point.X, point.Y);
+//            Console.ReadKey();
+//        }
+
+
+//    }
+//}
+
+
+namespace Fields
 {
+    public class Customer
 
-    class Program
+
+    class program
     {
         static void Main(string[] args)
         {
-            var point=new Point(10,20);
-            point.Move(null);
-            Console.WriteLine("point is at ({0},{1})",point.X,point.Y);
 
-            point.Move(100,200);
-            Console.WriteLine("point is at ({0},{1})", point.X, point.Y);
-            Console.ReadKey();
+
+
         }
-
-
     }
 }
