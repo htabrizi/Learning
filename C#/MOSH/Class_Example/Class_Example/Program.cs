@@ -55,6 +55,7 @@ namespace CSharp
             Console.WriteLine(customer.Id);
             Console.WriteLine(customer.Name);
             Console.ReadKey();
+            review1
 
         }
     }
