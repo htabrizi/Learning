@@ -37,24 +37,65 @@ namespace Classes
 */
 
 
-using System;
-using System.Collections.Generic;
+//using System;
+//using System.Collections.Generic;
 
-namespace CSharp
+//namespace CSharp
+//{
+//    class program
+//    {
+//        static void Main(string[] args)
+//        {
+//            var customer=new customer( );
+
+//            var order=new order();
+//             customer.Orders.Add(order);
+
+
+//            Console.WriteLine(customer.Id);
+//            Console.WriteLine(customer.Name);
+//            Console.ReadKey();
+//            review1
+
+//        }
+//    }
+//}
+//using System;
+
+//namespace Methods
+//{
+
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            var point=new Point(10,20);
+//            point.Move(null);
+//            Console.WriteLine("point is at ({0},{1})",point.X,point.Y);
+
+//            point.Move(100,200);
+//            Console.WriteLine("point is at ({0},{1})", point.X, point.Y);
+//            Console.ReadKey();
+//        }
+
+
+//    }
+//}
+
+
+namespace Fields
 {
+    public class Customer
+
+
+
+
     class program
     {
         static void Main(string[] args)
         {
-            var customer=new customer( );
-            
-            var order=new order();
-             customer.Orders.Add(order);
 
 
-            Console.WriteLine(customer.Id);
-            Console.WriteLine(customer.Name);
-            Console.ReadKey();
 
         }
     }
