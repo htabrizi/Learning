@@ -82,12 +82,8 @@ namespace Classes
 //    }
 //}
 
-
 namespace Fields
 {
-    public class Customer
-
-
 
 
     class program
