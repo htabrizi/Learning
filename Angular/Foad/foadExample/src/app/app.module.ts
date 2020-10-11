@@ -7,7 +7,8 @@ import { UsersComponent } from './users/users.component';
 import { AdminsComponent } from './admins/admins.component';
 import {AppRoutingModule} from './app-routing.module';
 import { ClientsComponent } from './clients/clients.component';
-import { NotfoundComponent } from './notfound/notfound.component'
+import { NotfoundComponent } from './notfound/notfound.component';
+import { UserComponent } from './user/user.component'
 
 
 
@@ -20,6 +21,7 @@ import { NotfoundComponent } from './notfound/notfound.component'
     AdminsComponent,
     ClientsComponent,
     NotfoundComponent,
+    UserComponent,
 
 
 

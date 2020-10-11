@@ -16,5 +16,7 @@ export class HomeComponent implements OnInit {
 
   public onUserRedirect(){
 this.router.navigate(['/users'])
+console.log("hi");
+
   }
 }
