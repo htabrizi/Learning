@@ -31,16 +31,23 @@ isUserFound:boolean=true;
   constructor(private route:ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.selectedId=+this.route.snapshot.params['id'];
-    this.selectedUser=this.users.find(user=>user.id===this.selectedId);
-    if (!this.selectedUser) {
-      this.isUserFound=false;
 
-    }
-this.route.params.subscribe((params:Params)=>{
-  this.selectedUser=this.users.find(user=>user.id===+params['id']);
+this.route.paramMap.subscribe(params=>{
+let id=+params.get('id');
+console.log(id);
 
 })
+
+//     this.selectedId=+this.route.snapshot.params['id'];
+//     this.selectedUser=this.users.find(user=>user.id===this.selectedId);
+//     if (!this.selectedUser) {
+//       this.isUserFound=false;
+
+//     }
+// this.route.params.subscribe((params:Params)=>{
+//   this.selectedUser=this.users.find(user=>user.id===+params['id']);
+
+// })
 
   }
 
