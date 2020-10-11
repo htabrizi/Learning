@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Params } from '@angular/router';
 import { IUser } from '../interfaces/app-interfaces';
 
 @Component({
@@ -35,8 +35,10 @@ isUserFound:boolean=true;
       this.isUserFound=false;
 
     }
+this.route.params.subscribe((params:Params)=>{
+  this.selectedUser=this.users.find(user=>user.id===+params['id']);
 
-    console.log(this.selectedUser);
+})
 
   }
 
