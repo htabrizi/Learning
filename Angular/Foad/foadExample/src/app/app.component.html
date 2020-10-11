@@ -1,2 +1,15 @@
-<input type="text" appColorful style="width:50rem; border-width: .2rem;">
-<p [appAppHighlight]="color">Hello World</p>
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a [routerLink]="['/']" class="nav-link active">Home</a>
+  </li>
+  <li class="nav-item">
+    <a [routerLink]="['/users']" class="nav-link ">Users</a>
+  </li>
+  <li class="nav-item">
+    <a [routerLink]="['/admins']" class="nav-link ">Admins</a>
+  </li>
+
+</ul>
+
+
+<router-outlet></router-outlet>

@@ -1,28 +1,34 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
-import { UserComponent } from './user/user.component';
-import { ColorfulDirective } from './colorful.directive';
-import { AppHighlightDirective } from './app-highlight.directive';
-import { CarouselDirective } from './carousel.directive';
+import { HomeComponent } from './home/home.component';
+import { UsersComponent } from './users/users.component';
+import { AdminsComponent } from './admins/admins.component';
+import { Routes, RouterModule } from '@angular/router';
 
+
+const routes : Routes= [
+  {path:'',component:HomeComponent},
+  {path:'users',component:UsersComponent},
+  {path:'admins',component:AdminsComponent}
+
+];
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent,
-    ColorfulDirective,
-    AppHighlightDirective,
-    CarouselDirective,
+    HomeComponent,
+    UsersComponent,
+    AdminsComponent,
 
 
 
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
