@@ -1,1 +1,8 @@
-<p>user works!</p>
+ <div *ngIf="isUserFound; else elsecond">
+
+<p>the user id is {{selectedUser.id}}</p>
+<p>the user name is {{selectedUser.name}}</p>
+
+</div>
+
+<ng-template #elsecond >The user doesn't exist</ng-template>

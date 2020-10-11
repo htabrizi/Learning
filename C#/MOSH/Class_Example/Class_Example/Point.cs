@@ -25,6 +25,7 @@ namespace Methods
                 throw new ArgumentException("newLocation");
             Move(newLocation.X,newLocation.Y);
 
+
         }
     }
 }  

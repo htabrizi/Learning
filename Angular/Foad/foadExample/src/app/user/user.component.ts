@@ -1,5 +1,6 @@
-import {Component, Input, OnInit} from '@angular/core';
-import {IUser} from '../app-interface';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { IUser } from '../interfaces/app-interfaces';
 
 @Component({
   selector: 'app-user',
@@ -7,22 +8,36 @@ import {IUser} from '../app-interface';
   styleUrls: ['./user.component.scss']
 })
 export class UserComponent implements OnInit {
-
-  private _user:IUser;
-  @Input()
-  set user (user:IUser){
-    this._user=user;
-    this.counter++
-  };
-  get user(){
-   return this._user;
+selectedId:number;
+selectedUser:IUser;
+isUserFound:boolean=true;
+  users:IUser[]=[
+  {
+    id:1,
+    name:'foad'
+  },
+  {
+    id:2,
+    name:'shadmehr'
+  },
+  {
+    id:3,
+    name:'siavash'
   }
-counter:number=0;
-  constructor() { }
+];
+
+  constructor(private route:ActivatedRoute) { }
 
   ngOnInit(): void {
-    console.log(this._user);
-    console.log(this.counter);
+    this.selectedId=+this.route.snapshot.params['id'];
+    this.selectedUser=this.users.find(user=>user.id===this.selectedId);
+    if (!this.selectedUser) {
+      this.isUserFound=false;
+
+    }
+
+    console.log(this.selectedUser);
+
   }
 
 }
