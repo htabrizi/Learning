@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
+import { observable } from 'rxjs';
 import { IUser } from '../interfaces/app-interfaces';
 
 @Component({
@@ -25,6 +26,7 @@ isUserFound:boolean=true;
     name:'siavash'
   }
 ];
+
 
   constructor(private route:ActivatedRoute) { }
 
