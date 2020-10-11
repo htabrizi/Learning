@@ -10,6 +10,7 @@ import { IUser } from '../interfaces/app-interfaces';
 export class UserComponent implements OnInit {
 selectedId:number;
 selectedUser:IUser;
+isUserFound:boolean=true;
   users:IUser[]=[
   {
     id:1,
@@ -30,6 +31,11 @@ selectedUser:IUser;
   ngOnInit(): void {
     this.selectedId=+this.route.snapshot.params['id'];
     this.selectedUser=this.users.find(user=>user.id===this.selectedId);
+    if (!this.selectedUser) {
+      this.isUserFound=false;
+
+    }
+
     console.log(this.selectedUser);
 
   }
