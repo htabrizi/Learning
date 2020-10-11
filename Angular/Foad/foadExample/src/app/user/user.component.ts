@@ -31,6 +31,7 @@ isUserFound:boolean=true;
   constructor(private route:ActivatedRoute) { }
 
   ngOnInit(): void {
+    
 let id = this.route.snapshot.paramMap.get('id');
 console.log(id);
 
