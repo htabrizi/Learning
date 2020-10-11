@@ -1,12 +1,12 @@
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a [routerLink]="['/']" class="nav-link active">Home</a>
+    <a [routerLink]="['/']" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
   </li>
   <li class="nav-item">
-    <a [routerLink]="['/users']" class="nav-link ">Users</a>
+    <a [routerLink]="['/users']" class="nav-link "routerLinkActive="active">Users</a>
   </li>
   <li class="nav-item">
-    <a [routerLink]="['/admins']" class="nav-link ">Admins</a>
+    <a [routerLink]="['/admins']" class="nav-link "routerLinkActive="active">Admins</a>
   </li>
 
 </ul>
