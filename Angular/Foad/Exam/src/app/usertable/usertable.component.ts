@@ -17,10 +17,10 @@ export class UsertableComponent implements OnInit {
 
   }
     onUpdate(email:string,password:string,address:string){
-      email=this.users.email;
+      this.users.email=email;
       this.users.password=password;
       this.users.address=address;
-      console.log(this.users.email);
+console.log(this.users.password);
 
      }
 }

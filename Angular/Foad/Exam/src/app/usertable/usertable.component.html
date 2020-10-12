@@ -2,8 +2,8 @@
 <table class="table table-dark mt-5">
   <thead>
   <tr>
-    <th scope="col">#</th>
-    <th value="user.email" id="new-question-text" scope="col" >Email</th>
+    <th scope="col">Id</th>
+    <th id="new-question-text" scope="col" >Email</th>
     <th scope="col">Password</th>
     <th scope="col">Address</th>
 
@@ -13,10 +13,10 @@
 
   <tr *ngFor="let user of users ; let i=index">
     <th scope="row">{{i+1}}</th>
-    <td #email>{{user.email}}</td>
-    <td #password>{{user.password}}</td>
-    <td #address>{{user.address}}</td>
-    <button (click)="onUpdate(email.value,password.value,address.value)">Update</button>
+    <td value="user.email" #email>{{user.email}}</td>
+    <td value="user.password"  #password>{{user.password}}</td>
+    <td value="user.address" #address>{{user.address}}</td>
+    <button ngmodel="users.email" (click)="onUpdate(email.value,password.value,address.value)">Update</button>
 
 
   </tr>

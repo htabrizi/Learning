@@ -21,8 +21,10 @@ user:IUser;
   this.router.navigate(['/users']);
   }
   }
-  onSaveChanges(){
-    this.user.name=
+  onSaveChanges(name:string,email:string){
+    this.user.name=name;
+    this.user.email=email;
+    this.router.navigate(['/users'])
   }
 
 }

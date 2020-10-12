@@ -2,5 +2,5 @@
   <label class="label" >{{user.id + ':'}}</label>
   <input #name class="form-control" type="text" value="user.name">
   <input #email class="form-control" type="text" value="user.email">
-  <button (click)="onSaveChanges()">Save changes</button>
+  <button class="btn btn-primary"(click)="onSaveChanges(name.value,email.value)">Save changes</button>
 </div>
