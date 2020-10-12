@@ -8,7 +8,9 @@ import { AdminsComponent } from './admins/admins.component';
 import {AppRoutingModule} from './app-routing.module';
 import { ClientsComponent } from './clients/clients.component';
 import { NotfoundComponent } from './notfound/notfound.component';
-import { UserComponent } from './user/user.component'
+import { UserComponent } from './user/user.component';
+import { EdituserComponent } from './edituser/edituser.component'
+import { UserService } from './user.service';
 
 
 
@@ -22,6 +24,7 @@ import { UserComponent } from './user/user.component'
     ClientsComponent,
     NotfoundComponent,
     UserComponent,
+    EdituserComponent,
 
 
 
@@ -31,7 +34,7 @@ import { UserComponent } from './user/user.component'
     FormsModule,
     AppRoutingModule
    ],
-  providers: [],
+  providers: [UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -6,12 +6,14 @@ import { HomeComponent } from './home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { UsersComponent } from './users/users.component';
 import { UserComponent } from './user/user.component';
+import { EdituserComponent } from './edituser/edituser.component';
 
 
 const routes : Routes= [
   {path:'',component:HomeComponent},
   {path:'users',component:UsersComponent},
-  {path:'users/:id',component:UserComponent},
+  {path:'user/:id',component:UserComponent},
+  {path:'user/:id/edit',component:EdituserComponent},
   {path:'admins',component:AdminsComponent},
   {path:'clients',component:ClientsComponent},
   {path:'not-found',component:NotfoundComponent},

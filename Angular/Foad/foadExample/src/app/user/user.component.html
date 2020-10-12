@@ -1,4 +1,24 @@
- <div *ngIf="isUserFound; else elsecond">
+ <div>
+   <span>{{user.id+':'}}</span>
+   <a [routerLink]="['/user',user.id,'edit']">{{user.name}} </a>
+   <span>{{user.email}}</span>
+   <button class="btn btn-primary" (click)=goToEditUser()>Edit User</button>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <div *ngIf="isUserFound; else elsecond">
 
 <p>the user id is {{selectedUser.id}}</p>
 <p>the user name is {{selectedUser.name}}</p>
@@ -8,4 +28,4 @@
 <ng-template #elsecond >The user doesn't exist</ng-template>
 
 
-<a [routerLink]="['/users','2']">Select Second User</a>
+<a [routerLink]="['/users','2']">Select Second User</a> -->

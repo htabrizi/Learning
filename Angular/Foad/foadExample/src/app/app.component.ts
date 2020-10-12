@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {IUser} from './app-interface';
-
+ 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
