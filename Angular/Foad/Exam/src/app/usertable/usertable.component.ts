@@ -9,14 +9,18 @@ import {user} from '../app-interface';
 
 export class UsertableComponent implements OnInit {
 
-  @Input() users:user[]=[]
+  @Input() users:user
 
   constructor() { }
-  onUpdate(user){
-    event.confirm.resolve();
-   }
+
   ngOnInit(): void {
 
   }
+    onUpdate(email:string,password:string,address:string){
+      email=this.users.email;
+      this.users.password=password;
+      this.users.address=address;
+      console.log(this.users.email);
 
+     }
 }

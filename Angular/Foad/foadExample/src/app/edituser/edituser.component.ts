@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { IUser } from '../interfaces/app-interfaces';
+import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-edituser',
@@ -6,10 +9,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./edituser.component.scss']
 })
 export class EdituserComponent implements OnInit {
-
-  constructor() { }
+user:IUser;
+  constructor(private userService:UserService,
+    private route:ActivatedRoute,
+    private router:Router
+    ) { }
 
   ngOnInit(): void {
+  this.user=this.userService.users.find(user=> user.id===+this.route.snapshot.params['id']);
+  if(!this.user){
+  this.router.navigate(['/users']);
+  }
+  }
+  onSaveChanges(){
+    this.user.name=
   }
 
 }

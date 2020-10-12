@@ -1,1 +1,6 @@
-<p>edituser works!</p>
+<div>
+  <label class="label" >{{user.id + ':'}}</label>
+  <input #name class="form-control" type="text" value="user.name">
+  <input #email class="form-control" type="text" value="user.email">
+  <button (click)="onSaveChanges()">Save changes</button>
+</div>
