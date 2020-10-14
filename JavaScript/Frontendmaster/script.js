@@ -10,4 +10,7 @@ function multi2(input){
     return input*2;
 }
 const result =devideBy2([1,2,3],multi2);
+
+
 console.log(result);
+
