@@ -6,6 +6,7 @@ function devideBy2( array, instructures){
 return output;
 
 }
+
 function multi2(input){
     return input*2;
 }
