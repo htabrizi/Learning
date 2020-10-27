@@ -25,3 +25,7 @@ select
 
 
 	select char_Length ('111')
+
+
+
+	select UPPER(title)from books
