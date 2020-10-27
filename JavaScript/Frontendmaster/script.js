@@ -17,3 +17,4 @@ const result =devideBy2([1,2,3],multi2);
 console.log(result);
 
 review6
+review7
