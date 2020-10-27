@@ -16,3 +16,8 @@ select
 
 
 	select REPLACE ('hello world','ll','!!!')
+	select substring(replace(title,'e','3'),1,10)from books;
+
+
+
+	select REVERSE ('he;llo')
