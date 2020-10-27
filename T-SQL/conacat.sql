@@ -12,3 +12,7 @@ select
 	'...'
 	)
 	from book
+
+
+
+	select REPLACE ('hello world','ll','!!!')
