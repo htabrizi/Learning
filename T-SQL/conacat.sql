@@ -21,3 +21,7 @@ select
 
 
 	select REVERSE ('he;llo')
+
+
+
+	select char_Length ('111')
