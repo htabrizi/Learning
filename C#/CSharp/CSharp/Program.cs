@@ -5,20 +5,9 @@ namespace CSharp
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-
-            var sentence = "this is going to realy realy realy long text.";
-            var summary = StringUtility.SummerizeText(sentence);
-            Console.WriteLine(summary,25);
-        }
-
+        private string Name = "Iman";
 
     }
 }
 
-review1
-    review2
-    review3
-    review4
-    review5
+ 
