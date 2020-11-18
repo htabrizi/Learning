@@ -33,3 +33,4 @@ function outer (){
 const myNewFunction=outer();
 myNewFunction();
 myNewFunction();
+learn2
