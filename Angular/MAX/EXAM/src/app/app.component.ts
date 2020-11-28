@@ -12,10 +12,7 @@ ifEmpty(){
   if(!this.username === true){
   }
 }
-allowNewUsername1(){
-   this.username='';
-
-}
+ 
 
 }
 
