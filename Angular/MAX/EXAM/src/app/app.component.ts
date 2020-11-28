@@ -8,11 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
 username ='';
 ifempty=false;
-ifEmpty(){
-  if(!this.username === true){
-  }
-}
  
+}
+
 
 }
 
