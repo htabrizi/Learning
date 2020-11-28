@@ -10,7 +10,6 @@ username ='';
 ifempty=false;
 ifEmpty(){
   if(!this.username === true){
-this.username=false;
   }
 }
 allowNewUsername1(){
