@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServerComponent implements OnInit {
 
-  constructor() { }
+  colorCode:number;
+
+  constructor() {
+    this.colorCode=Math.random();
+   }
 
   ngOnInit(): void {
+
   }
+getColor(){
+  return this.colorCode > 0.5 ? 'red' :'green';
+}
+
+
 
 }
