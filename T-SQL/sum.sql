@@ -25,8 +25,12 @@ SELECT TOP (1000) [SalesOrderID]
 
 
 
-  select productid, sum(orderqty) as totalqtysold
-  FROM [AdventureWorks2017].[Sales].[SalesOrderDetail]
-  group by productid
+  select  Product.Name ,SalesOrderDetail.productid
+	
+	, sum(salesorderdetail.orderqty) as totalqtysold
+  FROM [AdventureWorks2017].[Sales].[SalesOrderDetail] left outer join [AdventureWorks2017].[Production].[Product]
+	on AdventureWorks2017.sales.salesorderdetail.productid=AdventureWorks2017.production.product.productid
+
+  group by salesorderdetail.productid ,product.name
   order by totalqtysold desc;
 
